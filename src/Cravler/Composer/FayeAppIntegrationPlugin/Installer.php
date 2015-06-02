@@ -49,7 +49,7 @@ class Installer extends LibraryInstaller
         }
 
         if ('faye-app-integration-plugin' == $package->getType()) {
-            return $targetPath. '/' . $package->getPrettyName();
+            return $targetPath. '/' . str_replace('/', '-', $package->getPrettyName());
         }
 
         return  $targetPath;
