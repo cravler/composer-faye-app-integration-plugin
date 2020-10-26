@@ -2,25 +2,14 @@
 
 namespace Cravler\Composer\FayeAppIntegrationPlugin;
 
-use Composer\Composer;
-use Composer\Installer\LibraryInstaller;
-use Composer\IO\IOInterface;
 use Composer\Package\PackageInterface;
-use Composer\Repository\InstalledRepositoryInterface;
+use Composer\Installer\LibraryInstaller;
 
 /**
  * @author Sergei Vizel <sergei.vizel@gmail.com>
  */
 class Installer extends LibraryInstaller
 {
-    /**
-     * {@inheritDoc}
-     */
-    public function install(InstalledRepositoryInterface $repo, PackageInterface $package)
-    {
-        parent::install($repo, $package);
-    }
-
     /**
      * {@inheritDoc}
      */

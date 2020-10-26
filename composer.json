@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "composer-plugin-api": "^1.0.0"
+        "composer-plugin-api": "^1.0 || ^2.0"
     },
     "autoload": {
         "psr-0": { "Cravler\\Composer\\FayeAppIntegrationPlugin": "src/" }
@@ -18,7 +18,7 @@
     "extra": {
         "class": "Cravler\\Composer\\FayeAppIntegrationPlugin\\Plugin",
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.x-dev"
         }
     }
 }
